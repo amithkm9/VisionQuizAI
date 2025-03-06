@@ -1,99 +1,58 @@
-# 🎓 Educational Platform for Deaf and Mute Community
+# AI-Powered Quiz System
 
-## 📌 Project Overview
-The **Educational Platform for the Deaf and Mute Community** is an **AI-powered interactive learning system** that utilizes **real-time sign language recognition** to facilitate communication and education. The platform integrates **Mediapipe and LSTM models** for gesture recognition, enabling users to interact, take quizzes, and learn through an accessible digital experience.
+Welcome to the AI-Powered Quiz System! This project leverages AI models to generate, evaluate, and translate quiz questions and answers dynamically.
 
-## 🎯 Features
-- **Real-time Sign Language Recognition** using **Mediapipe & LSTM**
-- **ML-powered Interactive Quizzes**, where users sign answers and get evaluated
-- **Text-to-Sign & Sign-to-Text Conversion**
-- **Lesson Modules with Video & Gesture Tutorials**
-- **FastAPI Backend & React.js/Streamlit Frontend** for seamless performance
-- **User Progress Tracking & Performance Reports**
+## 🚀 Features
+- **AI Quiz Generation:** Automatically generate quiz questions using AI models.
+- **Real-time Evaluation:** Evaluate answers instantly using pre-trained models.
+- **Language Translation:** Translate quizzes into multiple languages for broader accessibility.
+- **Interactive Interface:** Seamlessly integrates AI functionalities within Jupyter notebooks.
 
-## 🛠️ Tech Stack
-### **Machine Learning:**
-- Mediapipe (Hand Tracking & Feature Extraction)
-- LSTM (Deep Learning Model for Gesture Recognition)
-- TensorFlow/Keras (Model Training & Optimization)
-- OpenCV (Image Processing)
+## 📁 Project Structure
+- `AI_quizzes_translation.ipynb`: Handles quiz translation workflows.
+- `AI_Quizzes1.ipynb`: Contains the core quiz generation and evaluation logic.
 
-### **Backend:**
-- FastAPI (Python framework for API development)
-- MongoDB (Database for user data & progress tracking)
+## ⚙️ Installation
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/your-username/your-repo-name.git
+   cd your-repo-name
+   ```
+2. **Create a virtual environment (optional):**
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+   ```
+3. **Install dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-### **Frontend:**
-- React.js / Streamlit (Interactive UI for user engagement)
-- Tailwind CSS / Bootstrap (Responsive design)
+## 🏃 Usage
+1. Launch Jupyter Notebook:
+   ```bash
+   jupyter notebook
+   ```
+2. Open the desired notebook (`AI_quizzes_translation.ipynb` or `AI_Quizzes1.ipynb`).
+3. Run cells step by step to generate and evaluate quizzes.
 
-## 📂 Project Structure
-```
-📦 signlearn
-├── 📂 frontend
-│   ├── public
-│   ├── src
-│   ├── App.js
-│   ├── Quiz.js
-│   ├── styles.css
-│
-├── 📂 backend
-│   ├── main.py  # FastAPI main application
-│   ├── models.py  # Database models
-│   ├── routes.py  # API routes for quizzes & sign recognition
-│   ├── database.py  # MongoDB connection
-│   ├── sign_model.py  # LSTM Model Implementation
-│
-├── 📂 ml_model
-│   ├── preprocess.py  # Data preprocessing for sign recognition
-│   ├── train.py  # Model training script
-│   ├── predict.py  # Gesture prediction API
-│
-├── requirements.txt
-├── README.md
-```
+## 📚 Dependencies
+- Python 3.9+
+- Jupyter Notebook
+- TensorFlow / PyTorch
+- Hugging Face Transformers
+- Google Translate API (or any other translation API)
 
-## 🚀 Installation & Setup
-### **1️⃣ Clone the Repository**
-```bash
-git clone https://github.com/yourusername/signlearn.git
-cd signlearn
-```
-
-### **2️⃣ Set Up the Backend**
-```bash
-cd backend
-python -m venv venv
-source venv/bin/activate  # On Windows use: venv\Scripts\activate
-pip install -r requirements.txt
-uvicorn main:app --reload
-```
-
-### **3️⃣ Set Up the Frontend**
-```bash
-cd frontend
-npm install
-npm start
-```
-
-## 📡 API Endpoints
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| POST | `/auth/signup` | Register a new user |
-| POST | `/auth/login` | Authenticate user & get token |
-| GET | `/quiz/questions` | Fetch interactive sign-based quiz questions |
-| POST | `/quiz/submit` | Submit sign-based quiz response |
-| POST | `/predict/sign` | Recognize sign language gesture |
-
-## 🏗️ Future Enhancements
-- Add **Live Sign Language Tutoring Feature**
-- Introduce **Speech-to-Sign AI Assistant**
-- Improve **Gesture Recognition Model Accuracy**
-
-## 🤝 Contribution
-Feel free to **fork, raise issues, or contribute** to this project!
+## 🌟 Contributing
+Contributions are welcome! Please fork the repository and submit a pull request.
 
 ## 📜 License
-This project is licensed under the **MIT License**.
+This project is licensed under the MIT License.
+
+## 📧 Contact
+For any inquiries, feel free to reach out via [your-email@example.com].
 
 ---
-### 🎉 Let's Make Learning More Accessible! 🤟
+
+Happy Quizzing! ✨
+
