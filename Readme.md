@@ -1,12 +1,13 @@
-# AI-Powered Quiz System
+# AI-Powered Quiz System with Computer Vision Integration
 
-Welcome to the AI-Powered Quiz System! This project leverages AI models to generate, evaluate, and translate quiz questions and answers dynamically.
+Welcome to the AI-Powered Quiz System! This project leverages AI models to generate, evaluate, and translate quiz questions and answers dynamically, with a special focus on accessibility for the deaf and dumb community.
 
 ## 🚀 Features
 - **AI Quiz Generation:** Automatically generate quiz questions using AI models.
 - **Real-time Evaluation:** Evaluate answers instantly using pre-trained models.
 - **Language Translation:** Translate quizzes into multiple languages for broader accessibility.
 - **Computer Vision Integration:** Utilizes computer vision techniques to enhance AI-powered quiz interactions.
+- **Accessibility for the Deaf and Dumb Community:** Designed with features to support visual-based quizzes and AI-powered text-to-sign language integration.
 - **Interactive Interface:** Seamlessly integrates AI functionalities within Jupyter notebooks.
 
 ## 🎯 Project Purpose
@@ -14,6 +15,7 @@ The AI-Powered Quiz System aims to:
 - Automate quiz creation and evaluation using AI and machine learning models.
 - Integrate computer vision to recognize and process visual data for quiz interactions.
 - Provide multilingual support through AI-based translations.
+- Support the deaf and dumb community by offering AI-powered sign language recognition and text-to-sign language translation.
 - Enhance user engagement with AI-driven feedback and dynamic quizzes.
 
 ## 📁 Project Structure
@@ -59,9 +61,9 @@ Contributions are welcome! Please fork the repository and submit a pull request.
 This project is licensed under the MIT License.
 
 ## 📧 Contact
-For any inquiries, feel free to reach out via [your-email@example.com].
+For any inquiries, feel free to reach out via [amithkm9@gmail.com].
 
 ---
 
-Happy Quizzing! ✨
+Empowering inclusive learning experiences through AI! ✨
 
