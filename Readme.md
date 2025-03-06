@@ -6,7 +6,15 @@ Welcome to the AI-Powered Quiz System! This project leverages AI models to gener
 - **AI Quiz Generation:** Automatically generate quiz questions using AI models.
 - **Real-time Evaluation:** Evaluate answers instantly using pre-trained models.
 - **Language Translation:** Translate quizzes into multiple languages for broader accessibility.
+- **Computer Vision Integration:** Utilizes computer vision techniques to enhance AI-powered quiz interactions.
 - **Interactive Interface:** Seamlessly integrates AI functionalities within Jupyter notebooks.
+
+## 🎯 Project Purpose
+The AI-Powered Quiz System aims to:
+- Automate quiz creation and evaluation using AI and machine learning models.
+- Integrate computer vision to recognize and process visual data for quiz interactions.
+- Provide multilingual support through AI-based translations.
+- Enhance user engagement with AI-driven feedback and dynamic quizzes.
 
 ## 📁 Project Structure
 - `AI_quizzes_translation.ipynb`: Handles quiz translation workflows.
@@ -42,6 +50,7 @@ Welcome to the AI-Powered Quiz System! This project leverages AI models to gener
 - TensorFlow / PyTorch
 - Hugging Face Transformers
 - Google Translate API (or any other translation API)
+- OpenCV (for computer vision tasks)
 
 ## 🌟 Contributing
 Contributions are welcome! Please fork the repository and submit a pull request.
@@ -50,7 +59,7 @@ Contributions are welcome! Please fork the repository and submit a pull request.
 This project is licensed under the MIT License.
 
 ## 📧 Contact
-For any inquiries, feel free to reach out via [amithkm9@gmail.com].
+For any inquiries, feel free to reach out via [your-email@example.com].
 
 ---
 
