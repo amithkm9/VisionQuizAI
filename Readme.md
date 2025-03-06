@@ -50,7 +50,7 @@ Contributions are welcome! Please fork the repository and submit a pull request.
 This project is licensed under the MIT License.
 
 ## 📧 Contact
-For any inquiries, feel free to reach out via [your-email@example.com].
+For any inquiries, feel free to reach out via [amithkm9@gmail.com].
 
 ---
 
